@@ -1,1 +1,89 @@
+.contain {
 
+}
+.logo_flag {
+  color: white;
+  background-color: #992022;
+  display: inline-block;
+  padding-left: 200px;
+  padding-right: 13px;
+  }
+header {
+  color: grey;
+  word-wrap: break-word;
+}
+span {
+  font-weight: lighter;
+  word-wrap: break-word;
+  width: 7%;
+  display: inline-block;
+ }
+.hero {
+  background-image: url(https://raw.githubusercontent.com/phantomhaircuts/dew_about_me_css/master/me.jpg);
+   background-repeat:no-repeat;
+   background-size: cover;
+   height:450px;
+   width:100%;
+   background-position: center;
+     }
+.content {
+  text-align: left;
+  font-weight: lighter;
+  padding-left: 37%;
+  padding-right: 37%;
+  line-height: 200%;
+  font-size: 13px;
+}
+.contact{
+  display: inline-block;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+  background-size: 50px;
+  border-style: solid;
+  border-spacing: 2em;
+  display: inline;
+  position: relative;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: left;
+  width: 21.3%;
+}
+a:nth-child(1) {
+  background-color:#878684;
+  width:70%
+
+}
+
+a:nth-child(2) {
+  background-color:#378EC3;
+}
+a:nth-child(3) {
+  background-color:#CB487B;
+}
+a:nth-child(4) {
+  background-color:#262626;
+}
+a:nth-child(5) {
+  background-color:#4C3C32;
+  }
+a:nth-child(6) {
+  background-color:#A6282D;
+  }
+a:nth-child(7) {
+  background-color:#2D7EC7;
+  }
+
+footer {
+  color: white;
+  background-color: #333;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  text-align: center;
+}
