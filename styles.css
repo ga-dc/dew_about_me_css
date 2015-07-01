@@ -1,1 +1,82 @@
 
+header .logo_flag{
+  width: 18%;
+  background-color: #AF3031;
+  text-align: right;
+  padding-right: 1em;
+  color: white;
+  display:inline-block;
+  font-size: 0.8em;
+
+}
+header > span{
+  width: 70%;
+  display: inline-block;
+}
+.hero{
+  background-color: red;
+  background: url(me.jpg);
+  background-size: cover;
+  background-position: 0;
+  height: 20em;
+}
+.about{
+  margin-left: 33%;
+  margin-right: 33%;
+  line-height: 1.5;
+}
+.contact > a{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 2em;
+  text-decoration: none;
+}
+.contact > a:nth-child(1) {
+  background-color: #999896;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+.contact > a:nth-child(2) {
+  background-color: #38A1CA;
+  margin-left: 40%;
+  display: inline-block;
+}
+.contact > a:nth-child(3) {
+  background-color: #DB618C;
+  margin-right: 40%;
+  display: inline-block;
+}
+.contact > a:nth-child(4) {
+  background-color: #333332;
+  margin-left: 40%;
+  display: inline-block;
+}
+.contact > a:nth-child(5) {
+  background-color: #614D43;
+  margin-right: 40%;
+  display: inline-block;
+}
+.contact > a:nth-child(6) {
+  background-color: #BB3A3E;
+  margin-left: 40%;
+  display: inline-block;
+}
+.contact > a:nth-child(7) {
+  background-color: #2C93CD;
+  margin-right: 40%;
+  display: inline-block;
+
+}
+.contact > a:nth-child(8) {
+}
+footer {
+  text-align: center;
+  background-color: #393938;
+  padding-top: 1.5em;
+  color: #8E8F8F;
+  font-size: 0.8em;
+
+}
