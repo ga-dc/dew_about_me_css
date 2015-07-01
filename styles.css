@@ -1,1 +1,33 @@
+*{
+  box-sizing: border-box;
+}
 
+header{
+
+  height: 50px;
+  width: 100%;
+}
+
+body{
+  font: arial;
+}
+.hero{
+    background-image: url(me.jpg);
+    background-position: top;
+    height: 200px;
+    width: 100%;
+}
+h1{
+  background-color:  #800000;
+  color: white;
+  width: 20%;
+  text-align: right;
+  padding-right: .2em;
+}
+
+p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  line-height: 1.5;
+}
