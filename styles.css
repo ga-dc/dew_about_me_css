@@ -1,1 +1,136 @@
+* {
+	box-sizing: border-box;
+}
 
+/* HEADER */
+
+header {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+}
+
+h1 {
+	color: white;
+}
+
+.logo_flag {
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px 0 120px;
+	background-color: #BB141A;
+	height: 65px;
+	position: relative;
+	top: -15px;
+}
+
+span {
+	display: inline-block;
+	color: #BEBFC1;
+	height: 0px;
+	width: 60px;
+	padding-left: 5px;
+	margin: 0;
+	position: relative;
+	top: -10px;
+}
+
+/* HERO IMAGE */
+
+.hero {
+	background-image: url(me.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+
+/* MAIN AREA */
+
+.contain {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	margin: auto;
+	padding: 15px 0;
+	max-width: 400px;
+}
+
+.contact {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a {	
+	background-color: red;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	width: 49%;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.contact> a {
+	margin: 10px 0 0 0;
+}
+
+.contact>a:first-child {
+	width: 100%;
+	background-color: #999896;
+}
+
+.contact>a:last-child {
+	display: none;
+}
+
+.contact>a:nth-child(2) {
+	background-color: #00A0D1;
+}
+
+.contact>a:nth-child(3) {
+	background-color: #EA4C89;
+}
+
+.contact>a:nth-child(4) {
+	background-color: #333332;
+}
+
+.contact>a:nth-child(5) {
+	background-color: #634D40;
+}
+
+.contact>a:nth-child(6) {
+	background-color: #C8232C;
+}
+
+.contact>a:nth-child(7) {
+	background-color: #008FD5;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	background-color: #393938;
+	margin-top: 25px;
+	padding: 20px 0 5px 0;
+}
+
+footer>p {
+	color: #BEBFC1;
+	font-size: 13px;
+}
+
+/* COLORS
+email 999896
+twitter 00A0D1
+dribbble EA4C89
+medium 333332
+instagram 634D40
+pinterest C8232C
+rdio 008FD5 */
