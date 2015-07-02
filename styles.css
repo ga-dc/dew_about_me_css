@@ -12,13 +12,15 @@ body{
   font: arial;
 }
 
-div.hero{
+
+.hero{
   height: 175px;
   background-image: url(me.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 .logo_flag{
   background-color: white;
@@ -64,14 +66,47 @@ a{
   color: white;
 }
 
-.contact{
-    background-color: #898989;
-    border: 1px solid #898989;
+.contact {
+  margin: auto 100px 0px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact a{
+    background-color: #898989;;
     display: block;
-    padding: 10px;
+    padding: 10px 0px;
+    width: 100%;
     text-align: center;
 }
 
+.contact a ~ a {
+  width: 48%;
+  margin-top: 8px;
+}
+
+.contact a:nth-child(2) {
+	background-color: #47A1CC;
+}
+
+.contact a:nth-child(3) {
+	background-color: #47A1CC;
+}
+.contact a:nth-child(4) {
+	background-color: #47A1CC;
+}
+.contact a:nth-child(5) {
+	background-color: #47A1CC;
+}
+.contact a:nth-child(6) {
+	background-color: #47A1CC;
+}
+.contact a:nth-child(7) {
+	background-color: #47A1CC;
+}
 footer{
   background-color: black;
   color: gray;
