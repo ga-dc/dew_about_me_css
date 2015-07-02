@@ -1,1 +1,50 @@
+* {
+  box-sizing: border-box;
+}
 
+header {
+  height: 5em;
+  width: 100%;
+}
+
+header .logo_flag {
+  background-color: red;
+  color: white;
+  float: left;
+  width: 20%;
+  text-align: right;
+}
+
+header span {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 50px;
+}
+
+.hero {
+  background: url(me.jpg) center center no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.about {
+  text-align: left;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.contact a {
+  background-color: #0099FF;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: grey;
+  height: 5em;
+  text-align: center;
+  padding-top: 2em;
+}
