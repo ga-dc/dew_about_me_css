@@ -1,1 +1,84 @@
+.logo_flag  {
+  background: #AF3030;
+  color: white;
+  padding-top: 10px;
+  width: 18%;
+  text-align: right;
+  display: inline-block;
+}
 
+.content {
+  margin-left: 30%;
+  margin-right: 30%;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url(me.jpg);
+  height: 450px;
+  width: 100%;
+
+}
+
+footer {
+  background: #21252B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact {
+  display: inline-block;
+}
+
+a {
+  color: white;
+  margin: 15px;
+  display: block;
+  background-color: #98bf21;
+  text-align: center;
+  padding: 8px;
+  width: 50%
+
+}
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+a:nth-child(1) {
+    background: #8C8B89;
+    width: 100%
+}
+
+a:nth-child(2) {
+    background: #3593B9;
+}
+
+a:nth-child(3) {
+    background: #DC618C;
+}
+
+a:nth-child(4) {
+    background: #333332;
+}
+
+a:nth-child(5) {
+    background: #604D43;
+}
+
+a:nth-child(6) {
+    background: #BB3A3D;
+}
+
+a:nth-child(7) {
+    background: #2F93CD;
+}
+
+a:nth-child(8) {
+    background: #97BE21;
+    width: 100%
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
