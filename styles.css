@@ -150,11 +150,3 @@ footer {
             margin-top: 3em;
         }
     }
-
-    @media (min-width: 768px) {
-        footer {
-            bottom: 0;
-            padding-top: 1em;            
-            position: fixed;
-        }
-    }
