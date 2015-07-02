@@ -1,1 +1,37 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+header .logo_flag {
+  background-color: darkred;
+  display: inline-block;
+  width: 20%;
+}
+
+.logo_flag > h1 {
+  text-align: right;
+  color: white;
+  padding: .25em;
+}
+
+header > span {
+  display: inline-block;
+  width: 70%;
+}
+
+.hero {
+  background-color: red;
+  background: url(me.jpg);
+  background-size: cover;
+  background-position: 0;
+  height: 20em;
+}
+
+.about > p {
+  padding: 2em 15em;
+  min-width: 300px;
+}
