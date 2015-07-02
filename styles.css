@@ -3,7 +3,8 @@
 }
 
 header{
-
+  margin-top: 0;
+  padding-top: 0;
   color: gray;
 }
 
@@ -17,25 +18,39 @@ div.hero{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0;
 }
 
 .logo_flag{
-  color: gray;
   background-color: white;
-  font-family: "Chalkboard";
 }
 
 
 h1{
-  background-color:  #800000;
+  background-color:  #B21111;
   color: white;
   width: 20%;
   text-align: right;
   padding-right: .2em;
-  margin: 0;
+  font-family: "Chalkboard";
+  font-size: medium;
+  margin-top: 0;
+  float: left;
+  height: 2em;
+  padding-top: .25em;
+  padding-right: .5em;
 }
 
+span{
+  display: inline-block;
+  background-color: white;
+  height: 2em;
+  width: .3em;
+  margin: 0;
+  padding-left: .5em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  font-size: small;
+}
 p{
   margin-left: auto;
   margin-right: auto;
@@ -46,12 +61,12 @@ p{
 
 
 a{
-  color: red;
+  color: white;
 }
 
 .contact{
-    background-color: #eee;
-    border: 1px solid #ddd;
+    background-color: #898989;
+    border: 1px solid #898989;
     display: block;
     padding: 10px;
     text-align: center;
