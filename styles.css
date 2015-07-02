@@ -1,1 +1,136 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
 
+header, footer {
+  width: 100%;
+  height: 50px;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  position: absolute;
+  top: 840px;
+  color: white;
+  background-color: #444;
+  width: 612px;
+  text-align: center;
+}
+
+.contain {
+  width: 612px;
+  background-color: gray;
+}
+
+.logo_flag {
+  float: left;
+  background-color: red;
+  width: 20%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: right;
+  font-size: 1em;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+span {
+  color: gray;
+  text-align: left;
+  width: 10px;
+  height: 50px;
+  font-size: 0.8em;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.hero {
+  position: absolute;
+  float: left;
+  left: 0px;
+  top: 50px;
+  width: 100%;
+  height: 200px;
+  background: url("me.jpg");
+  background-size: 612px 200px;
+  background-repeat: no-repeat;
+}
+
+.content {
+  position: absolute;
+  top: 250px;
+  width: 612px;
+  background-color: white;
+}
+
+.about, .contact {
+  width: 48%;
+  margin-left: 26%;
+  margin-right: 26%;
+}
+
+.about {
+  color: gray;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
+a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8em;
+  vertical-align: middle;
+  width: 45%;
+  height: 30px;
+  margin: 5px 5px 5px 5px;
+  padding-top: 12px;
+  background-color: red;
+  color: white;
+}
+
+a:first-child {
+  margin: 5px 25px 5px 5px;
+  width: 93%;
+}
+
+a:last-child {
+  margin: 5px 25px 5px 5px;
+  width: 93%;
+}
+
+a:nth-child(1) {
+  background-color: gray;
+}
+
+a:nth-child(2) {
+  background-color: blue;
+}
+
+a:nth-child(3) {
+  background-color: pink;
+}
+
+a:nth-child(4) {
+  background-color: black;
+}
+
+a:nth-child(5) {
+  background-color: brown;
+}
+
+a:nth-child(6) {
+  background-color: red;
+}
+
+a:nth-child(7) {
+  background-color: blue;
+}
