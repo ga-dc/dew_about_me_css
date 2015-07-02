@@ -1,1 +1,91 @@
+header{
+  display:inline-block;
+}
 
+header > span{
+  width: 70%;
+  display:inline-block;
+}
+
+header.logo_flag{
+    text-align: right;
+    display: inline-block;
+    width: 20%;
+}
+
+span{
+  color:gray;
+}
+
+h1{
+  color: white;
+  background-color: darkred;
+  width: 3em;
+  text-align: right;
+}
+
+.hero{
+  background: url(me.jpg);
+  background-size: cover;
+  background-position:0;
+  height: 20em;
+}
+
+p{
+  text-align: left;
+  margin-left: 15em;
+  margin-right: 15em;
+  line-height: 1.5;
+}
+
+.contact{
+  display:inline-grid;
+  text-align: center;
+  color:white
+}
+
+a:link{
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+.contact > a:nth-child(1){
+  background-color: gray;
+}
+
+.contact > a:nth-child(2){
+  background-color: lightblue;
+}
+
+.contact > a:nth-child(3){
+  background-color: pink;
+}
+
+.contact > a:nth-child(4){
+  background-color: black;
+}
+
+.contact > a:nth-child(5){
+  background-color: brown;
+}
+
+.contact > a:nth-child(6){
+  background-color: red;
+}
+
+.contact > a:nth-child(7){
+  background-color: lightblue;
+}
+
+footer{
+  color: darkgray;
+  background-color: grey;
+  height: 7em;
+  bottom: 0;
+}
+
+footer > p{
+  text-align: center;
+  margin-top: 3em;
+}
