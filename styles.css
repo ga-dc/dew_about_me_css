@@ -1,1 +1,58 @@
+* {
+  box-sizing: border-box;
+}
 
+/*dew logo*/
+div.logo_flag {
+  background-color:  #AF1909;
+  color: white;
+  width: 225px;
+  height: 60px;
+  padding-top: 1px;
+  padding-left: 140px;
+}
+/*Daniel Waldron*/
+span {
+  color: #aaa;
+  font-size: 20px;
+  padding-left: 230px;
+}
+/*background picture*/
+div.hero {
+  background-image: url(me.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+div.content {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+/*paragraph*/
+section.about{
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+/*social media links*/
+a {
+  color: green;
+  font-family: Arial;
+  width:40%;
+  display: inline-block;
+  width: 45%;
+  margin: 7px;
+}
+
+/*copyright*/
+footer {
+  text-align: center;
+  background-color: #333333;
+  padding-top: 5px;
+  color: #ddd;
+  margin-top:auto;
+}
