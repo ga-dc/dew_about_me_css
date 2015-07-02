@@ -1,1 +1,19 @@
+.logo_flag {
+  background: #b33;
+  color: #fff;
+  width: 10%;
+  text-align: right;
+  padding: .1em .3em .1em 0;
+}
 
+.header {
+  text:inline;
+}
+
+a {
+  background-color: #ccf;
+  border-radius: 5px;
+  border: 1px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px 0;
+}
