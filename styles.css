@@ -1,1 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: grey;
+  font-size: em;
+  font-family: sans-serif;
+}
+.logo_flag {
+  display: inline-block;
+  width: 20%;
+  background: red;
+  color: white;
+  font-size: 0.8em;
+}
+span {
+  word-wrap: break-word;
+  display: inline-block;
+  width: 60px;
+}
 
+h1 {
+  margin: 0;
+  text-align: right;
+  padding: 15px;
+}
+.hero {
+  background-image: url("me.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 9em;
+  padding-right: 9em;
+  line-height: 1.4;
+}
+footer {
+  text-align: center;
+  background: gray;
+  margin: 0;
+  color: white;
+  padding: 0.5em;
+}
+a {
+  display: block;
+  position: relative;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: center;
+}
+
+a:nth-child(1) {
+  color: white;
+  background: grey;
+  padding-left: 50%;
+  padding-right: 50%;
+  border: 0;
+  margin: 0;
+
+}
+a:nth-child(2) {
+  color: white;
+  background: blue;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+a:nth-child(3) {
+  color: white;
+  background: pink;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+a:nth-child(4) {
+  color: white;
+  background: black;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+a:nth-child(5) {
+  color: white;
+  background: brown;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+a:nth-child(6) {
+  color: white;
+  background: red;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+a:nth-child(7) {
+  color: white;
+  background: blue;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+a.contact {
+  display: none;
+}
