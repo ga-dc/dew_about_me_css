@@ -99,6 +99,7 @@ span {
     flex: 0 0 50%;
     font-size: 1em;
     line-height: 3em;
+    margin-top: 10px;
     text-align: center;
     text-decoration: none;
 }
