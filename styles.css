@@ -1,1 +1,160 @@
+ Base Format*/
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header: Logo & Title */
+header {
+    background-color: #FFF;
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 1.25em;
+    line-height: 2.6em;
+    margin: 0;
+}
+
+.logo_flag, span {
+    display: inline-block;
+}
+
+.logo_flag {
+    background-color: #A83131;
+    flex: 1 0 10%;    
+    padding: 0 1em 0 1em;
+    text-align: right;
+    width: 10%;
+}
+
+span {
+    color: #A2A4A6;
+    flex: 8 0 auto;
+    font-size: .8em;
+    line-height: 4.3em;
+    padding: 0 .5em 0 .5em;
+    text-align: left;
+}
+
+/* Background Photo */
+.hero {
+    background: url(me.jpg);
+    background-size: cover;
+    background-position: 0;
+    height: 20em;
+    margin-bottom: 2em;
+}
+
+
+/* Content: Text */
+.content {
+    margin: 0 auto;
+}
+
+    @media (min-width: 320px) {
+        .content {
+            width: 80%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .content {
+            width: 50%;
+        }
+    }
+
+.about {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+/* Social: Links */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact > a {
+    color: #FFF;
+    flex: 0 0 50%;
+    font-size: 1em;
+    line-height: 3em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact > a:first-child {
+    flex: 0 0 100%;
+    background-color: #999896;
+}
+
+.contact > a:nth-child(2) {
+    background-color: #00A0D1;
+}
+
+.contact > a:nth-child(3) {
+    background-color: #EA4C89;
+}
+
+.contact > a:nth-child(4) {
+    background-color: #333332;
+}
+
+.contact > a:nth-child(5) {
+    background-color: #634D40;
+}
+
+.contact > a:nth-child(6) {
+    background-color: #C8232C;
+}
+
+.contact > a:nth-child(7) {
+    background-color: #008FD5;
+}
+
+.contact > a:last-child {
+    display: none;
+}
+
+/* Footer */
+footer {
+    background-color: #393938;
+    color: #A2A4A6;
+    line-height: 3em;
+    text-align: center;
+    width: 100%;
+}
+
+    @media (min-width: 320px) {
+        footer {
+            margin-top: 3em;
+        }
+    }
+
+    @media (min-width: 768px) {
+        footer {
+            bottom: 0;
+            padding-top: 1em;            
+            position: fixed;
+        }
+    }
