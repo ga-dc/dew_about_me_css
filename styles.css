@@ -4,30 +4,63 @@
 
 header{
 
-  height: 50px;
-  width: 100%;
+  color: gray;
 }
 
 body{
   font: arial;
 }
-.hero{
-    background-image: url(me.jpg);
-    background-position: top;
-    height: 200px;
-    width: 100%;
+
+div.hero{
+  height: 175px;
+  background-image: url(me.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
 }
+
+.logo_flag{
+  color: gray;
+  background-color: white;
+  font-family: "Chalkboard";
+}
+
+
 h1{
   background-color:  #800000;
   color: white;
   width: 20%;
   text-align: right;
   padding-right: .2em;
+  margin: 0;
 }
 
 p{
   margin-left: auto;
   margin-right: auto;
-  width: 25em;
+  width: 24em;
   line-height: 1.5;
+}
+
+
+
+a{
+  color: red;
+}
+
+.contact{
+    background-color: #eee;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+  background-color: black;
+  color: gray;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .25em;
 }
