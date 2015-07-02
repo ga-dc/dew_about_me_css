@@ -1,1 +1,109 @@
+* {
+  box-sizing: border-box;
+}
 
+html {
+  height: 100%;
+}
+
+body {
+  color: white;
+}
+
+.logo_flag {
+  color: #FFFFFF;
+  text-align: right;
+  background-color: #C70000;
+  float:left;
+  display:inline;
+  width: 15%;
+  padding:.2em .5em .2em 0;
+}
+
+header span {
+  width: 5%;
+  text-align: left;
+  color: #B9BABC;
+  font-size: 1.5em;
+  float: left;
+  display: inline;
+  position: relative;
+  top: .5em;
+  padding-left: .5em;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  background-image: url('me.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 5em;
+}
+
+.content {
+  color: #5D5F62;
+  margin: 0 auto;
+  width: 33%;
+  line-height: 1.7;
+  position: relative;
+  top: 6em;
+}
+
+.about {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+footer {
+  background-color: #393938;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .1em;
+  margin-top: 4em;
+  margin-bottom: 0;
+  font-weight: lighter;
+  width: 100%;
+}
+
+.contact {
+  margin-top: 4em;
+  margin-bottom: 8em;
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  text-align: center;
+}
+
+a[href*="#"]{
+  background-color: #999896;
+}
+
+a[href*="twitter"]{
+  background-color: #1CA1D1;
+}
+
+a[href*="dribbble"]{
+  background-color: #E7478A;
+}
+
+a[href*="medium"]{
+  background-color: #333332;
+}
+
+a[href*="instagram"]{
+  background-color: #624D40;
+}
+
+a[href*="pinterest"]{
+  background-color: #C51A2F;
+}
+
+a[href*="rdio"]{
+  background-color: #1790D5;
+}
