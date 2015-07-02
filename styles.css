@@ -1,1 +1,49 @@
+body {
+  font-family: helvetica;
+}
 
+.logo_flag {
+  background: #A93331;
+  float: left;
+  width: 10em;
+  color: white;
+  line-height: 0.5;
+
+  text-align: right;
+}
+
+span {
+
+}
+
+.hero{
+  background: url('me.jpg') no-repeat center top;
+  background-size: 100%;
+  padding: 20em;
+  margin-top: 2em;
+}
+
+.content {
+float: none;
+}
+
+footer {
+  background: #393938;
+  color: white;
+  text-align: center;
+  padding-top: 1.5em;
+  margin-top: 5em;
+}
+
+.about {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.contact {
+width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+
+}
