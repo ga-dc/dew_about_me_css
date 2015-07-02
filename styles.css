@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 header {
   height: 5em;
   width: 100%;
@@ -23,7 +19,6 @@ header span {
   display: inline-block;
   margin-top: 20px;
   margin-left: 5px;
-  text-align: justified;
   width: 50px;
 }
 
@@ -38,10 +33,6 @@ header span {
   text-align: left;
   margin-left: 33%;
   margin-right: 33%;
-}
-
-.contact {
-
 }
 
 .contact a {
