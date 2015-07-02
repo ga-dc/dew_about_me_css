@@ -30,6 +30,8 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .about {
   padding-top: 2em;
