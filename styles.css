@@ -1,1 +1,159 @@
+/*General Notes:
+This code is a terrible example of DRY and probably
+filled with Voodoo code (non-work/conflicting) even
+though everything was tested line by line. Many areas
+for improvement, namely better application of flexbox
+(https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+to the contact section*/
 
+
+/*Universal
+What is the font of the entire site? two different ones
+Lucida Sans was my best guess for primary font*/
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", sans-serif;
+}
+.contain {
+  margin: 0;
+  padding: 0;
+/*Banner:
+Not particularly happy with dimensions. Need to find
+an auto justify setting*/
+}
+/*Top Banner*/
+header {
+  margin: -13px 0 0 0;
+  height: 60px;
+  padding: 0;
+}
+/*Top Left Portion:
+Need to determine proper font. This is really bugging
+me*/
+.logo_flag {
+  background-color: #AB312D;
+  font-family: Times;
+  margin: 0;
+  height: 60px;
+  padding: 0 90px 0 50px;
+  position: relative;
+  display: inline-block;
+  width: 15%;
+}
+h1 {
+color: white;
+}
+/*Top Right Portion*/
+span {
+  color: #C4C5C7;
+  margin: 0;
+  height: 0px;
+  width:60px;
+  display: inline-block;
+  position:relative;
+  padding-left: 20px;
+}
+/* Jumbotron Image:
+Need to find out how to adjust image size correctly
+so not zoomed in on face in future */
+
+.hero {
+  background-image: url(me.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left;
+  padding: 0 25% 0 25%;
+}
+.about {
+background-color: white;
+}
+/*Contacts:
+Area of biggest technical difficulty. need to somehow
+justify main columns to edges of "email", my 'quick-fix'
+using approximate % is shotty at best. Also, is in-line
+block necessarily the best way of display?*/
+.contact {
+  position: relative;
+  color: white;
+  background-color: white;
+}
+a {
+  color: white;
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  float: center;
+  padding: 0 10% 0 10%;
+  border: 5px solid;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  border-spacing: 12px;
+  width: 49%;
+}
+/*Email*/
+a:nth-child(1) {
+  background-color: #999896;
+  width: 100%;
+}
+/*twitter*/
+a:nth-child(2) {
+  background-color: #42A0CE;
+}
+ /*dribble*/
+a:nth-child(3) {
+  background-color: #D7618E;
+}
+ /*medium*/
+a:nth-child(4) {
+  background-color: #323333;
+}
+ /*instagram*/
+a:nth-child(5) {
+  background-color: #5F4D41;
+}
+ /*pinterest*/
+a:nth-child(6) {
+  background-color: #B73B3B;
+}
+/*Rdio*/
+a:nth-child(7) {
+  background-color: #3792D2;
+}
+/*purpose of Herro? Out of Sight - Out of Mind tactic
+not necessarily ideal. find better way of hiding*/
+a:nth-child(8) {
+  background-color: white;
+  border: none;
+}
+/* Color Pallet
+#999896 email color
+#42A0CE twitter color
+#D7618E dribble color
+#323333 medium color
+#5F4D41 instagram color
+#B73B3B pinterest color
+#3792D2 Rdio color */
+
+/*Bottom Banner
+Obviously, I need to assign position:fixed, but when
+that's applied, the footer vanishes in certain views,
+so a solution for one layout creates another...
+need to tinker more with this later*/
+footer {
+background: #383838;
+color: #C4C5C7;
+font-size:12px;
+text-align: center;
+padding: 12px 0 5px 0;
+margin-top: 15px;
+width: 100%;
+}
