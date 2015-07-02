@@ -1,0 +1,207 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+/* Body Content */
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+/* Heading Content */
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+  letter-spacing: -1px;
+  color: #fff;
+  text-align: right;
+  margin: 0px;
+  padding: .4em;
+}
+
+p {
+  font-size: .9em;
+  line-height: 2em;
+}
+
+/* Header */
+
+.logo_flag {
+  background: #A93331;
+  width: 15%;
+  display: inline-block;
+}
+
+span {
+  font-size: 1.1em;
+  color: #A1A2A5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  word-wrap: break-word;
+  display: inline-block;
+  vertical-align: sub;
+  width: 7%;
+  padding: 0px 0px 0px 5px;
+}
+
+.hero {
+  background-image: url(../images/me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  min-height: 70%;
+  background-position: center center;
+  width: 100%;
+  position: relative;
+}
+
+/* Content */
+.content {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.about {
+  margin: 30px 0px 0px 0px;
+}
+
+section.contact {
+  margin: 30px 0px 70px 0px;
+}
+
+
+/* Social Buttons */
+
+a {
+  color: #fff;
+  padding: 15px;
+  display: inline-block;
+  width: 42.5%;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:nth-child(1) {
+    width: 92.75%;
+    background: #999896;
+}
+
+a:nth-child(2) {
+    background: #47A1CC;
+}
+
+a:nth-child(3) {
+    background: #D5638E;
+}
+
+a:nth-child(4) {
+    background: #333332;
+}
+
+a:nth-child(5) {
+    background: #5F4D42;
+}
+
+a:nth-child(6) {
+    background: #B53D3E;
+}
+
+a:nth-child(7) {
+    background: #3C93CF;
+}
+
+a:nth-child(8) {
+    display: none;
+}
+
+
+/* Footer Content */
+
+footer {
+  text-align:center;
+  color: #fff;
+  background: #393938;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #9D9EA0;
+  line-height: 1;
+  padding: 20px;
+  margin: 0px;
+}
+
+/* Media Query - Smaller Laptops */
+@media only screen
+and (min-width : 1300px)
+and (max-width : 1499px) {
+
+  a {
+    width: 39.8%;
+  }
+
+  a:nth-child(1) {
+    width: 87.75%;
+  }
+}
+
+/* Media Query - Smaller Laptops */
+@media only screen
+and (min-width : 1100px)
+and (max-width : 1299px) {
+
+  a {
+    width: 39.8%;
+  }
+
+  a:nth-child(1) {
+    width: 88.5%;
+  }
+}
+
+/* Media Query - iPads (Landscape) */
+@media only screen
+and (min-width : 861px)
+and (max-width : 1099px) {
+
+  a {
+    width: 37.75%;
+  }
+
+  a:nth-child(1) {
+    width: 88.5%;
+  }
+
+  span {
+    width: 10%;
+  }
+
+}
+
+/* Media Query - iPads (Portrait) and Smaller */
+@media only screen
+and (max-width: 860px)
+and (min-width: 0px) {
+
+  a {
+    width: 92.75%;
+  }
+
+  span {
+    width: 16.5%;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .logo_flag {
+    width: 25%;
+  }
+
+}
