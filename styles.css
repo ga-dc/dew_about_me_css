@@ -1,1 +1,157 @@
+*{
+  box-sizing: border-box;
+}
 
+/**************************
+HEADER
+***************************/
+
+/* Utilized Flexbox to size and place the logo_flag and header with
+Daniel's name */
+header {
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.logo_flag {
+  height: 100%;
+  width: 15%;
+}
+
+.logo_flag h1 {
+
+  text-align: right;
+  font: 1.25em sans-serif;
+  color: white;
+  vertical-align: 50%;
+
+  background-color: #A93331;
+  height: 100%;
+  margin: 0px;
+  padding: .75em .5em 0px;
+
+}
+
+header span {
+  color: #888;
+  font-size: .95em;
+  text-align: left;
+
+  padding: .4em 80% .4em .4em ;
+  width: 85%;
+}
+
+  /**************************
+  BODY (no actual body element)
+  ***************************/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Utilized me.jpg image as a cover/centered background image, separating the
+top banner from the content.
+*/
+.hero {
+  background-image: url(./me.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: auto;
+}
+
+.content {
+  font-size: .8em;
+
+  width: 30%;
+  margin: 20px auto;
+  display: block;
+}
+
+.about {
+  margin: 10px 0px;
+}
+
+.contact {
+  margin: auto 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*
+Anchor specifications for the Email link, plus centering for all of the links
+*/
+.contact a {
+  background-color: #aaa;
+
+  padding: 10px 0px;
+  width: 100%;
+
+  text-align: center;
+}
+
+/* The anchor specifications below set the width for the social media links to
+be properly spaced, and then the corresponding background colors for each
+*/
+.contact a ~ a {
+  width: 48%;
+  margin-top: 8px;
+}
+
+.contact a:nth-child(2) {
+	background-color: #47A1CC;
+}
+
+.contact a:nth-child(3) {
+	background-color: #D5638E;
+}
+
+.contact a:nth-child(4) {
+	background-color: #333;
+}
+
+.contact a:nth-child(5) {
+	background-color: #5F4D42;
+}
+
+.contact a:nth-child(6) {
+	background-color: #B53D3E;
+}
+
+.contact a:nth-child(7) {
+	background-color: #3C93CF;
+}
+
+.contact a:nth-child(8) {
+	display: none;
+}
+
+
+  /**************************
+  FOOTER
+  ***************************/
+
+
+  footer {
+    background-color: #383838;
+
+    margin-top: 50px;
+    padding-top: 2.25em;
+    padding-bottom: 10px;
+  }
+
+  footer p {
+    font-size: .85em;
+    color: #BBB;
+    margin: 0px auto;
+    text-align: center;
+  }
