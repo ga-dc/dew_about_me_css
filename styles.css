@@ -141,12 +141,7 @@ footer {
     background-color: #393938;
     color: #A2A4A6;
     line-height: 3em;
+    margin-top: 3em;
     text-align: center;
     width: 100%;
 }
-
-    @media (min-width: 320px) {
-        footer {
-            margin-top: 3em;
-        }
-    }
