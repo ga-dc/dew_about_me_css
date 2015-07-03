@@ -1,1 +1,116 @@
+* {
+  font: verdana;
+  font-size: 12px;
+}
 
+header {
+  width: 100%;
+  position: absolute;
+}
+
+div.logo_flag {
+  background-color: #AA3331;
+  color: #fff;
+  vertical-align: bottom;
+  width: 15%;
+  float: left;
+  height: 20%;
+  margin: 0px;
+  }
+
+#contain span {  /*NEED TO SIT NEXT TO LOGO FLAG ON PAGE.  NEED DANIEL AND WALDRON TO BE ON 2 LINES */
+  background-color: #fff;
+  width: ;
+  text align: left;
+  display: block;
+  float: left;
+  height: 20%;
+  margin: 0px;
+}
+
+/*I don't see the IMG info in the HTML code*/
+
+.content {
+  padding-bottom: 2em;
+  margin: auto;
+  width: 60%;
+  border: 7px;
+  padding: 15px;
+  position: static;
+}
+
+.about {
+
+}
+
+/*this page requires diff styling for each indiv link, but the similarities can be grouped. realized this only after having all these rules under each indiv. link...*/
+a:link {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+a:visited {
+  color: #fff;
+}
+
+/*to style each indiv. link, need to put the web address to identify it*/
+a[href='#'] {
+  border: 3px solid #999896;
+  background-color: #999896;
+}
+
+a[href="https://twitter.com/dwaldron"] {
+  border: 3px solid #48A1CC;
+  background-color: #48A1CC;
+}
+
+a[href="http://dribbble.com/dew"] {
+  border: 3px solid #D56383;
+  background-color: #D56383;
+}
+
+a[href="https://medium.com/@dwaldron/"] {
+  border: 3px solid #333332;
+  background-color: #333332;
+}
+
+a[href="http://instagram.com/dew"] {
+  border: 3px solid #5F4D42;
+  background-color: #5F4D42;
+}
+
+a[href="http://pinterest.com/danielwaldron/"] {
+  border: 3px solid #B53D3E;
+  background-color: #B53D3E;
+}
+
+a[href="http://www.rdio.com/people/dew/"] {
+    border: 3px solid #3C93CF;
+    background-color: #3C93CF;
+}
+
+a[class="contact"] {
+  opacity: 0;
+  /*content of this attribute should not show up on page...yet.  it is not yet a link in the HTML so font color needed to be changed on its own*/
+}
+
+footer {
+  background-color: #393938;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0 .1em 0;
+  color: #fff
+
+}
+
+/*header, body {
+  background-color: white;
+
+}
+
+footer {
+  background-color: #393938;
+
+}
