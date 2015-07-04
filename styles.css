@@ -1,1 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+.contain {
+    width: 100%;
 
+}
+/*header {
+
+
+}*/
+
+.logo_flag {
+    display: inline-block;
+    width: 15%;
+    margin-right: 10px;
+}
+
+h1 {
+    height: 2em;
+    margin: 0;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+    background-color: #B8041E;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+span {
+    font-size: 1em;
+    display: inline-block;
+    width: 80px;
+    line-height: 1;
+    vertical-align: middle;
+    color: #949699;
+}
+
+.hero {
+    background-image: url("me.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 55%;
+    margin: 0 auto;
+    font: normal 1.25em/1.6 Helvetica, Arial, Verdana, sans-serif;
+    color: #404146;
+}
+
+
+.contact {
+    /*margin-left: 35%;
+    margin-right: 35%;*/
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+a.contact {
+    color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    margin: 40px;
+
+}
+a {
+    float: left;
+    color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.contact > a:nth-child(1) {
+    display: inline-block;
+    padding-left: 46%;
+    padding-right: 45%;
+    margin-bottom: 10px;
+    background-color: grey;
+
+}
+.contact > a:nth-child(2) {
+    background-color: #1CA1D1;
+    display: inline-block;
+    width: 48%;
+    padding: 0 auto;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+.contact > a:nth-child(3) {
+    background-color: #E7478A;
+    display: inline-block;
+    width: 48%;
+    display: inline-block;
+    padding: 0 auto;
+    margin-left: 2%;
+    margin-bottom: 10px;
+
+}
+.contact > a:nth-child(4) {
+    background-color: #333332;
+    display: inline-block;
+    width: 48%;
+    padding: 0 auto;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+.contact > a:nth-child(5) {
+    background-color: #624D40;
+    display: inline-block;
+    width: 48%;
+    display: inline-block;
+    padding: 0 auto;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+.contact > a:nth-child(6) {
+    background-color: #C51A2F;
+    display: inline-block;
+    width: 48%;
+    padding: 0 auto;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+.contact > a:nth-child(7) {
+    background-color: #1790D5;
+    display: inline-block;
+    width: 48%;
+    display: inline-block;
+    padding: 0 auto;
+    margin-left: 2%;
+    margin-bottom: 100px;
+}
+a.contact {
+    display: none;
+
+
+}
+
+footer.p{
+    margin-left: 35%;
+    margin-right: 35%;
+    width:30em;
+    padding:2em;
+    color: grey;
+
+    /*text-align: center;*/
+}
+
+footer {
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    clear: left;
+    background-color: #4a4d49;
+    color:###353534;
+    font-size: .75em;
+}
