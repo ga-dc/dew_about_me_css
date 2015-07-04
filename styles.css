@@ -1,1 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+}
 
+.contain {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: white;
+}
+
+.logo_flag {
+    width: 150px;
+    display: inline-block;
+}
+
+header {
+    margin-top: -5px;
+    height: 47px;
+}
+
+footer {
+    background: grey;
+    position: absolute;
+    width: 60%; 
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.content {
+    width: 40%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 0;
+    background: #8B2323;
+    color: white;
+    width: 150px;
+    text-align: right;
+}
+
+span {
+    display: inline-block; 
+    width: 5em;
+    height: 60px;
+    color: grey;
+} 
+
+.hero {
+    background-image: url(meCropped.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 20em;
+}
+
+p {
+    color: dark-grey;
+    font-size: 12px;
+    line-height: 2em;
+    
+}
+
+.contact a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    height: 4em;
+    width: 47%;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact a[href='#'] {
+    display: block;
+    width: 100%;
+    background: grey;
+    color: white;
+}
+
+.contact a[href="https://twitter.com/dwaldron"] {
+    background: deepskyblue;
+    height: 4em;
+    vertical-align: middle;
+    padding-top: 20px;
+    margin-right: 8px;
+}
+
+.contact a[href="http://dribbble.com/dew"] {
+    background: #CD6090;
+}
+
+.contact a[href="https://medium.com/@dwaldron/"] {
+    background: darkgrey;
+    margin-right: 6px;
+}
+
+.contact a[href="http://instagram.com/dew"] {
+    background: brown;
+}
+.contact a[href="http://pinterest.com/danielwaldron/"] {
+    background: red;
+}
+.contact a[href="http://www.rdio.com/people/dew/"] {
+    background: blue;
+}
