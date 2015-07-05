@@ -28,17 +28,19 @@ footer {
 }
 
 .contact {
-  display: inline-block;
+  display: grid;
 }
 
 a {
   color: white;
-  margin: 15px;
+  margin: 10px;
   display: block;
   background-color: #98bf21;
   text-align: center;
   padding: 8px;
-  width: 50%
+  width: 500px;
+
+
 
 }
 a:hover, a:active {
@@ -48,35 +50,53 @@ a:hover, a:active {
 a:nth-child(1) {
     background: #8C8B89;
     width: 100%
+    display: inline-block;
 }
 
 a:nth-child(2) {
     background: #3593B9;
+    display: inline-block;
+    width: 39%;
+
 }
 
 a:nth-child(3) {
     background: #DC618C;
+    display: inline-block;
+    width: 39%;
+    float: right;
 }
 
 a:nth-child(4) {
     background: #333332;
+    display: inline-block;
+    width: 39%;
 }
 
 a:nth-child(5) {
     background: #604D43;
+    display: inline-block;
+    width: 39%;
+    float: right;
 }
 
 a:nth-child(6) {
     background: #BB3A3D;
+    display: inline-block;
+    width: 39%;
 }
 
 a:nth-child(7) {
     background: #2F93CD;
+    display: inline-block;
+    width: 39%;
+    float: right;
 }
 
 a:nth-child(8) {
     background: #97BE21;
     width: 100%
+    display: inline-block;
 }
 
 a:hover, a:active {
