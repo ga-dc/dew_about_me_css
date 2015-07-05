@@ -1,1 +1,119 @@
+/** {
+  box-sizing: border-box;
+}*/
 
+.contain {
+  border: 2px outset grey;
+  margin: 1.5em;
+}
+
+/********** HEADER *******/
+
+div.logo_flag {
+  width: 20%;
+  background: #990000;
+  display: inline-block;
+  /*inside block, outside inline?*/
+}
+h1 {
+  margin:0;
+  color: #fff;
+  padding:.25em 0;
+  text-align: right;
+  font-family:signPainter;
+  margin-right: 10px;
+}
+span {
+  display: inline-block;
+  width: 1em;
+  color: #CCC;
+  font-size: .7em;
+}
+/********** IMAGE *******/
+
+
+div.hero {
+  height: 250px;
+  width: 100%;
+  background-image: url("me.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  }
+
+/********** CONTENT *******/
+
+
+div.content {
+  width: 50%;
+  margin: 0 auto;
+}
+section.about p {
+  line-height: 1.5;
+  font-family: arial;
+  color: #2B2B40;
+}
+
+.contact a:nth-child(even) {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 0;
+    display: block;
+    width: 48.5%;
+    margin-bottom: 1em;
+    background: #666;
+    float: left;
+}
+.contact a:nth-child(odd) {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 0;
+    display: block;
+    width: 48.5%;
+    margin-bottom: 1em;
+    background: #666;
+    float: right;
+}
+.contact a:first-child {
+  width: 100%;
+  background: grey;
+}
+.contact a:nth-child(2) {
+  background-color: skyblue;
+}
+.contact a:nth-child(3) {
+  background-color: pink;
+}
+.contact a:nth-child(4) {
+  background-color: black;
+}
+.contact a:nth-child(5) {
+  background-color: #7A5229;
+}
+.contact a:nth-child(6) {
+  background-color: red;
+}
+.contact a:nth-child(7) {
+  background-color: #2E5CB8;
+}
+
+
+a.contact {
+  visibility: hidden;
+}
+
+
+/********   FOOTER   ********/
+
+footer {
+  background-color: #1F1F1F;
+  margin: 0;
+  padding: 1em;
+  clear:both;
+}
+footer p{
+    color: #999;
+    text-align: center;
+}
