@@ -1,1 +1,76 @@
+body {
+  box-sizing: border-box;
+}
 
+.logo_flag{
+  display: inline-block;
+  width: 25%;
+  margin-top: 0;
+}
+header {
+  background-image: url("me.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 0px;
+  width: 100%
+}
+.contain {
+  border: 2px solid gray;
+}
+
+span {
+
+  border-left: 1px solid #d3d3d3;
+  background: #fff;
+  display: inline;
+  margin-top: 0;
+  box-sizing: border-box;
+  padding: 10px 0px 3px;
+  margin-left: -5px;
+  color: silver;
+}
+
+h1 {
+order: 1;
+background: #b22222;
+color: #fff;
+font-size: 1.5em;
+text-align: right;
+padding-right: 4px;
+margin-top: 0;
+}
+
+
+.content {
+  margin: auto;
+  width: 40%;
+}
+
+.about {
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  height: 10px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+contact, a{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+
+}
+
+footer {
+  text-align: center;
+  color: #b0b0b0;
+  font-size: .8em;
+  background-color: #383838;
+  box-sizing: border-box;
+  padding: 10px 0 1px 0;
+}
