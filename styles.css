@@ -1,1 +1,144 @@
+* {
+  font: verdana;
+  font-size: 12px;
+}
 
+header {
+  width: 100%;
+  position: absolute;
+  padding-bottom: 20em;
+}
+
+div.logo_flag {
+  background-color: #AA3331;
+  color: #fff;
+  width: 25%;
+  text-align: right;
+  float: left;
+  line-height: 1.4em;
+  margin: 0px 0px 0px 0px;
+  }
+
+span {
+  background-color: #fff;
+  color: #C2C3C5;
+  text align: left;
+  float: left;
+  width: 3em;
+  line-height: 1.4em;
+  margin: 0px 0px 0px 0px;
+  display: inline;
+  font-size: 16px;
+  padding: 0px 0px 0px 12px;
+}
+
+.hero {
+  background-image: url("me.jpg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 50%;
+}
+
+.content {
+  padding-bottom: 2em;
+  padding: 15px;
+}
+
+.about {
+  padding: 5px;
+  margin: 50px 300px 50px 300px;
+  text-align: justify;
+}
+
+.contact {
+  margin: 50px 300px 5px 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  width: 365px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a {
+  padding: 5px;
+  text-align: center;
+}
+
+a[href='#'] {
+  border: 3px solid #fff;
+  padding: 4px 20px 3px 20px solid #999896;
+  background-color: #999896;
+  width: 100%;
+}
+
+a[href="https://twitter.com/dwaldron"] {
+  border: 3px solid #fff;
+  padding: 4px solid #48A1CC;
+  background-color: #48A1CC;
+  flex-grow: 1;
+  width: 125px;
+}
+
+a[href="http://dribbble.com/dew"] {
+  border: 2px solid #fff;
+  padding: 3px solid #D56383;
+  background-color: #D56383;
+  flex-grow: 1;
+  width: 125px;
+}
+
+a[href="https://medium.com/@dwaldron/"] {
+  border: 2px solid #fff;
+  padding: 3px solid #333332;
+  background-color: #333332;
+  flex-grow: 1;
+  width: 125px;
+}
+
+a[href="http://instagram.com/dew"] {
+  border: 2px solid #fff;
+  padding: 3px solid #5F4D42;
+  background-color: #5F4D42;
+  flex-grow: 1;
+  width: 125px;
+}
+
+a[href="http://pinterest.com/danielwaldron/"] {
+  border: 2px solid #fff;
+  padding: 3px solid #B53D3E;
+  background-color: #B53D3E;
+  flex-grow: 1;
+  width: 125px;
+}
+
+a[href="http://www.rdio.com/people/dew/"] {
+  border: 2px solid #fff;
+  padding: 3px solid #3C93CF;
+  background-color: #3C93CF;
+  flex-grow: 1;
+  width: 125px;
+}
+
+a[class="contact"] {
+  opacity: 0;
+}
+
+footer {
+  background-color: #393938;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0 .1em 0;
+  color: #fff
+}
