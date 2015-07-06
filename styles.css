@@ -32,12 +32,13 @@ span {
   padding: 0px 0px 0px 12px;
 }
 
-div.hero {
+.hero {
   background-image: url("me.jpg");
   background-color: #000;
   background-repeat: no-repeat;
   background-position: center;
   width: auto;
+  height: 50%;
 }
 
 .content {
@@ -57,7 +58,7 @@ div.hero {
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
-  width: 375px;
+  width: 365px;
 }
 
 a:link {
@@ -140,5 +141,4 @@ footer {
   text-align: center;
   padding: 1em 0 .1em 0;
   color: #fff
-
 }
