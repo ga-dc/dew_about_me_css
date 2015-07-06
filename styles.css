@@ -1,1 +1,74 @@
 
+body {
+  font-family: Arial;
+  color: black;
+}
+
+article {
+  font-family: Arial;
+  margin: 200 200 200 200;
+}
+
+.logo_flag {
+  font-family: Arial;
+  color: white;
+  font-size: 16pt;
+  background-color: red;
+  width: 20%;
+  text-align: right;
+  padding: 0 20 0 0;
+}
+
+.content {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.contain {
+  background-color: white;
+}
+
+p {
+  width: 60%;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+.content section.contact a {
+  background-color: blue;
+  height: 20px;
+  width: 20%;
+    display: block;
+  font-size: 16pt;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.hero {
+  width: 100%;
+  border: 0;
+}
+
+header span {
+  color: gray;
+  font-size: 10pt;
+  background-color: white;
+  width: 80%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+footer {
+  background-color: gray;
+  vertical-align: middle;
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  padding: 10px;
+}
