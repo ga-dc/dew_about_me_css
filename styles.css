@@ -6,88 +6,144 @@
 header {
   width: 100%;
   position: absolute;
+  padding-bottom: 20em;
 }
 
 div.logo_flag {
   background-color: #AA3331;
   color: #fff;
-  vertical-align: bottom;
-  width: 15%;
+  width: 25%;
+  text-align: right;
   float: left;
-  height: 20%;
-  margin: 0px;
+  line-height: 1.4em;
+  margin: 0px 0px 0px 0px;
   }
 
-#contain span {  /*NEED TO SIT NEXT TO LOGO FLAG ON PAGE.  NEED DANIEL AND WALDRON TO BE ON 2 LINES */
+span {
   background-color: #fff;
-  width: ;
+  color: #C2C3C5;
   text align: left;
-  display: block;
   float: left;
-  height: 20%;
-  margin: 0px;
+  width: 3em;
+  line-height: 1.4em;
+  margin: 0px 0px 0px 0px;
+  display: inline;
+  font-size: 16px;
+  padding: 0px 0px 0px 12px;
 }
 
-/*I don't see the IMG info in the HTML code*/
+/*header:after {
+  content: "\A";
+  white-space: pre-wrap;
+}*/
+
+/*span::first-line {
+  word-wrap: break-word;
+}*/
+/*
+.content::before {
+  content "\A";
+}*/
+
+div.hero {
+  background-image: url("me.jpg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+}
 
 .content {
   padding-bottom: 2em;
-  margin: auto;
-  width: 60%;
-  border: 7px;
   padding: 15px;
-  position: static;
 }
 
-.about {
 
+
+.about {
+  padding: 5px;
+  margin: 50px 300px 50px 300px;
+  text-align: justify;
 }
 
 /*this page requires diff styling for each indiv link, but the similarities can be grouped. realized this only after having all these rules under each indiv. link...*/
+
+.contact {
+  margin: 50px 300px 5px 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  width: 375px;
+}
+
 a:link {
   text-decoration: none;
   color: #fff;
-  padding: 5px;
 }
 
 a:visited {
   color: #fff;
 }
 
-/*to style each indiv. link, need to put the web address to identify it*/
+a {
+  padding: 5px;
+  text-align: center;
+}
+
 a[href='#'] {
-  border: 3px solid #999896;
+  border: 3px solid #fff;
+  padding: 4px 20px 3px 20px solid #999896;
   background-color: #999896;
+  width: 100%;
 }
 
 a[href="https://twitter.com/dwaldron"] {
-  border: 3px solid #48A1CC;
+  border: 3px solid #fff;
+  padding: 4px solid #48A1CC;
   background-color: #48A1CC;
+  flex-grow: 1;
+  width: 125px;
 }
 
 a[href="http://dribbble.com/dew"] {
-  border: 3px solid #D56383;
+  border: 2px solid #fff;
+  padding: 3px solid #D56383;
   background-color: #D56383;
+  flex-grow: 1;
+  width: 125px;
 }
 
 a[href="https://medium.com/@dwaldron/"] {
-  border: 3px solid #333332;
+  border: 2px solid #fff;
+  padding: 3px solid #333332;
   background-color: #333332;
+  flex-grow: 1;
+  width: 125px;
 }
 
 a[href="http://instagram.com/dew"] {
-  border: 3px solid #5F4D42;
+  border: 2px solid #fff;
+  padding: 3px solid #5F4D42;
   background-color: #5F4D42;
+  flex-grow: 1;
+  width: 125px;
 }
 
 a[href="http://pinterest.com/danielwaldron/"] {
-  border: 3px solid #B53D3E;
+  border: 2px solid #fff;
+  padding: 3px solid #B53D3E;
   background-color: #B53D3E;
+  flex-grow: 1;
+  width: 125px;
 }
 
 a[href="http://www.rdio.com/people/dew/"] {
-    border: 3px solid #3C93CF;
-    background-color: #3C93CF;
+  border: 2px solid #fff;
+  padding: 3px solid #3C93CF;
+  background-color: #3C93CF;
+  flex-grow: 1;
+  width: 125px;
 }
 
 a[class="contact"] {
